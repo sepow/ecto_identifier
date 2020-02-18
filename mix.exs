@@ -36,8 +36,8 @@ defmodule EctoIdentifier.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ecto, "~> 2.2"},
-      {:nanoid, "~> 1.0"},
+      {:ecto_sql, "~> 3.0"},
+      {:nanoid, "~> 2.0"},
       {:credo, "~> 0.9", only: :dev, runtime: false},
       {:excoveralls, "~> 0.7", only: :test},
       {:postgrex, "~> 0.13", only: :test},
